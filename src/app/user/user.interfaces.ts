@@ -16,10 +16,10 @@ export interface User
     password: string; 
     name: string; 
     surname: string;
-     email: string; 
-     address: Address; 
-     phone: Phone[]; 
-    } 
+    email: string; 
+    address: Address; 
+    phone: Phone[]; 
+} 
 
 export interface UserAPIList 
 {

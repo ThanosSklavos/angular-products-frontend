@@ -1,58 +1,58 @@
 <div class="container mt-4">
 
-  <div class="row">
+ <div class="row">
 
-    <nav
+  <nav
 
-      class="p-2 navbar navbar-expand navbar-light bg-light justify-content-between"
+   class="p-2 navbar navbar-expand navbar-light bg-light justify-content-between"
 
-    >
+  >
 
-      <span class="navbar-brand">
+   <span class="navbar-brand">
 
-        <strong
+    <strong
 
-          ><a href="#" routerLink="" class="text-decoration-none text-black">{{
+    ><a href="#" routerLink="" class="text-decoration-none text-black">{{
 
-            title
+      title
 
-          }}</a></strong
+     }}</a></strong
 
-        >
+    >
 
-      </span>
+   </span>
 
-      <span> Coding Factory</span>
+   <span> Coding Factory</span>
 
 <ul class="navbar-nav">
 
-          <app-dropdown
+      <app-dropdown
   
-            [dropdownLabel]="'Users'"
+       [dropdownLabel]="'Users'"
   
-            [items]="usersMenu"
+       [items]="usersMenu"
   
-          ></app-dropdown>
+      ></app-dropdown>
   
-          <app-dropdown
+      <app-dropdown
   
-            [dropdownLabel]="'Products'"
+       [dropdownLabel]="'Products'"
   
-            [items]="productsMenu"
+       [items]="productsMenu"
   
-          ></app-dropdown>
+      ></app-dropdown>
   
-        </ul>
+     </ul>
 
-    </nav>
+  </nav>
 
-  </div>
+ </div>
 
-  <div class="row mt-2">
+ <div class="row mt-2">
 
-    <router-outlet></router-outlet>
+  <router-outlet></router-outlet>
 
 
-  </div>
+ </div>
 
 </div>
