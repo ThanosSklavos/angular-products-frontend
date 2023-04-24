@@ -1,6 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { MenuItem } from '../app.interfaces';
-
+import { MenuItem } from 'shared';
 @Component({
   selector: 'app-dropdown',
   templateUrl: './dropdown.component.html',
